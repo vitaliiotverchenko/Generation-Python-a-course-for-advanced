@@ -1,0 +1,9 @@
+a, b = int(input()), int(input())
+sum = a + b
+dic = a - b
+umn = a * b
+chastnoe = a / b
+celaya_chast = a // b
+ostatok = a % b
+koren = (a ** 10 + b ** 10) ** 0.5
+print(sum, dic, umn, chastnoe, celaya_chast, ostatok, koren, sep='\n')
