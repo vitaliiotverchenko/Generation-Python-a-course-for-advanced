@@ -1,9 +1,9 @@
 a, b = int(input()), int(input())
 sum = a + b
-dic = a - b # Разность двух чисел
-umn = a * b # Произведение двух чисел
-chastnoe = a / b # Частное двух чисел
-celaya_chast = a // b # Целая часть частного двух чисел
+dic = a - b  # Разность двух чисел
+umn = a * b  # Произведение двух чисел
+chastnoe = a / b  # Частное двух чисел
+celaya_chast = a // b
 ostatok = a % b
 koren = (a ** 10 + b ** 10) ** 0.5
 print(sum, dic, umn, chastnoe, celaya_chast, ostatok, koren, sep='\n')
