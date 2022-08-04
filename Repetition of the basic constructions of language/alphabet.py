@@ -11,7 +11,5 @@ def alphabet():
     for i in range(32, 127):
         print(chr(i), end=" ")
     print()
-    for i in range(128, 256):
-        print(chr(i), end=" ")
-    print()
+
 alphabet()
