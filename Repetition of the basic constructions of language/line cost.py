@@ -13,10 +13,10 @@
 # coin = cost % 100
 # print(f"{rub} р. {coin} коп.")
 
-
+# Стоимость строки
 text = input()
 price = len(text) * 60
-print(price// 100, 'р.', price%100, 'коп.')
+print(price // 100, 'р.', price % 100, 'коп.')
 
 # string = input()
 # price = 60 * len(string)
